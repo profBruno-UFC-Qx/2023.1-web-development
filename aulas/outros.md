@@ -23,7 +23,7 @@ Confiram a lista de atividades a seguir:
 {% assign atividades = site.atividades | sort: "numero" %}
 {% for atividade in atividades %}
     <tr>
-        <td> <a href="{{ atividade.url }}">{{  atividade.nome }}</a></td>
+        <td> <a href="{{ atividade.url | relative_url }}" tareget="_blank">{{  atividade.nome }}</a></td>
         <td>
         {% assign today = "now" | date: "%s" %} 
         {% assign prazo = atividade.prazo | date: "%d/%m/%Y" | date: "%s" %}
