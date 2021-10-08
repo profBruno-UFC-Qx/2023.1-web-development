@@ -1,10 +1,12 @@
 ---
-title: Aula 4 - Fundamentos de CSS
-nav_order: 4
+title: Aula 11 - Introdução a Promises
+nav_order: 11
+has_children: true
+has_toc: false
 #youtubeId: v552Kpro-sk
 ---
 
-## Fundamentos de CSS
+## Introdução a Promises
 
 ### Recurso
 
@@ -16,8 +18,8 @@ Em breve estará disponível.
 </span>
 
 {% include youtubePlayer.html id=page.youtubeId %}
-
-<span class="fs-3 float-right">
-[Próxima aulas](03-html){: .btn }
-</span>
 -->
+<span class="fs-3 float-right">
+[Próxima aulas](../12/){: .btn }
+</span>
+

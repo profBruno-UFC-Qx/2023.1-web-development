@@ -1,6 +1,8 @@
 ---
 title: Aula 2 - A Internet
 nav_order: 2
+has_children: true
+has_toc: false
 youtubeId: TxcFgiJKxUM
 ---
 
@@ -26,6 +28,6 @@ youtubeId: TxcFgiJKxUM
 
 
 <span class="fs-3 float-right">
-[Próxima aulas](03-html){: .btn }
+[Próxima aulas](../03/){: .btn }
 </span>
 

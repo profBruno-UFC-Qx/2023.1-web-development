@@ -1,10 +1,12 @@
 ---
-title: Aula 13 - Introdução ao Vuejs
-nav_order: 13
+title: Aula 4 - Fundamentos de CSS
+nav_order: 4
+has_children: true
+has_toc: false
 #youtubeId: v552Kpro-sk
 ---
 
-## Introdução ao Vuejs
+## Fundamentos de CSS
 
 ### Recurso
 
@@ -16,8 +18,8 @@ Em breve estará disponível.
 </span>
 
 {% include youtubePlayer.html id=page.youtubeId %}
-
-<span class="fs-3 float-right">
-[Próxima aulas](03-html){: .btn }
-</span>
 -->
+<span class="fs-3 float-right">
+[Próxima aulas](../05/){: .btn }
+</span>
+

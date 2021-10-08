@@ -1,10 +1,12 @@
 ---
-title: Aula 12 - Sessões
-nav_order: 12
+title: Aula 13 - Introdução ao Vuejs
+nav_order: 13
+has_children: true
+has_toc: false
 #youtubeId: v552Kpro-sk
 ---
 
-## Sessões
+## Introdução ao Vuejs
 
 ### Recurso
 

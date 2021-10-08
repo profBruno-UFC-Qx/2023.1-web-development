@@ -1,10 +1,12 @@
 ---
-title: Aula 8 - Fundamentos de Node.js
-nav_order: 8
+title: Aula 5 - Introdução ao Bootstrap
+nav_order: 5
+has_children: true
+has_toc: false
 #youtubeId: v552Kpro-sk
 ---
 
-## Fundamentos de Node.js
+## Introdução ao Bootstrap
 
 ### Recurso
 
@@ -16,8 +18,7 @@ Em breve estará disponível.
 </span>
 
 {% include youtubePlayer.html id=page.youtubeId %}
-
-<span class="fs-3 float-right">
-[Próxima aulas](03-html){: .btn }
-</span>
 -->
+<span class="fs-3 float-right">
+[Próxima aulas](../06/){: .btn }
+</span>

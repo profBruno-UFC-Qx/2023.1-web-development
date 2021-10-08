@@ -1,10 +1,12 @@
 ---
-title: Aula 9 - Fundamentos de Express
-nav_order: 9
+title: Aula 8 - Fundamentos de Node.js
+nav_order: 8
+has_children: true
+has_toc: false
 #youtubeId: v552Kpro-sk
 ---
 
-## Fundamentos de Express
+## Fundamentos de Node.js
 
 ### Recurso
 
@@ -16,8 +18,8 @@ Em breve estará disponível.
 </span>
 
 {% include youtubePlayer.html id=page.youtubeId %}
-
+-->
 <span class="fs-3 float-right">
-[Próxima aulas](03-html){: .btn }
+[Próxima aulas](../09/){: .btn }
 </span>
 -->

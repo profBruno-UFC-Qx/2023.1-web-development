@@ -1,10 +1,12 @@
 ---
-title: Aula 3 - Fundamentos de HTML
-nav_order: 3
+title: Aula 6 - Fundamentos de JavaScript
+nav_order: 6
+has_children: true
+has_toc: false
 #youtubeId: v552Kpro-sk
 ---
 
-## Fundamentos de HTML
+## Fundamentos de JavaScript
 
 ### Recurso
 
@@ -16,8 +18,8 @@ Em breve estará disponível.
 </span>
 
 {% include youtubePlayer.html id=page.youtubeId %}
-
-<span class="fs-3 float-right">
-[Próxima aulas](03-html){: .btn }
-</span>
 -->
+<span class="fs-3 float-right">
+[Próxima aulas](../07/){: .btn }
+</span>
+
