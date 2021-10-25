@@ -11,11 +11,19 @@ youtubeId: lpCN4NxbbyE
 ### Recurso
 
 <span class="fs-3">
-    <a href="{{site.baseurl}}/assets/downloads/03-fundamentos-de-html.pdf" class="btn" target="_blank">Notas de aula</a>
+  <a href="{{site.baseurl}}/assets/downloads/03-Fundamentos-de-HTML.pdf" class="btn" target="_blank">Notas de aula</a>
+  <a href="https://www.icloud.com/keynote/0nVrJqVhXzMbhvVeyx78BMLWg#03-Fundamentos-de-HTML" class="btn" target="_blank">Notas de aula com animações</a>
 </span>
 
 
 {% include youtubePlayer.html id=page.youtubeId %}
+
+### Mais informações
+
+<ul>
+  <li><a href="https://htmlcheatsheet.com" target="_blank">😎  HTML CheatSheet</a></li>
+</ul>
+
 
 <span class="fs-3 float-right">
 [Próxima aulas](01-html){: .btn }
