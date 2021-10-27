@@ -7,6 +7,12 @@ youtubeId: lExf9ncwLSI
 
 ## CSS na prática
 
+<span class="fs-3">
+  <a href="https://jsfiddle.net/brunomateus/8x26h5fa/120/" class="btn" target="_blank"> JsFiddle usando no vídeo</a>
+  <a href="https://github.com/profBruno-UFC-Qx/qxd0020-cv-example" class="btn" target="_blank"> Repositório no GitHub: CV v2.0</a>
+</span>
+
+
 {% include youtubePlayer.html id=page.youtubeId %}
 
 
