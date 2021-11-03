@@ -21,11 +21,11 @@ Confiram a lista de atividades a seguir:
  </thead>
  <tbody>
 {% assign atividades = site.atividades | sort: "numero" %}
+{% assign today = "now" | date: "%s" %} 
 {% for atividade in atividades %}
     <tr>
-        <td> <a href="{{ atividade.url | relative_url }}" tareget="_blank">{{  atividade.nome }}</a></td>
+        <td> <a href="{{ atividade.url | relative_url }}" target="_blank">{{  atividade.nome }}</a></td>
         <td>
-        {% assign today = "now" | date: "%s" %} 
         {% assign prazo = atividade.prazo | date: "%d/%m/%Y" | date: "%s" %}
         {% if prazo >= today %}
         <span class="label label-green">
@@ -37,6 +37,33 @@ Confiram a lista de atividades a seguir:
         <td> <span id="pp{{ atividade.numero }}"></span> </td>
     </tr>
 {% endfor %}
+    <tr>
+        <td><a href="{{ 'projeto_final'| relative_url }}" target="_blank"> Projeto Final - Proposta</a></td>
+        <td>
+        {% assign prazo = "09/11/2021" | date: "%d/%m/%Y" | date: "%s" %}
+        {% if prazo >= today %}
+        <span class="label label-green">
+        {% else %}
+         <span class="label label-red">
+        {% endif %}
+         09/11/2021 </span></td>
+        <td> <a href="https://forms.gle/92r4cKs6CKDWeuAF9" target="_blank" class="btn">Enviar</a></td>
+        <td> <span id="pp"></span> </td>
+    </tr>
+    <tr>
+        <td><a href="{{ 'projeto_final' | relative_url }}" target="_blank"> Projeto Final - Implementação</a></td>
+        <td>
+        {% assign prazo = "30/01/2022" | date: "%d/%m/%Y" | date: "%s" %}
+        {% if prazo >= today %}
+        <span class="label label-green">
+        {% else %}
+         <span class="label label-red">
+        {% endif %}
+         30/01/2022 </span></td>
+        <td> <a href="{{}}" class="btn">Enviar</a></td>
+        <td> <span id="pp"></span> </td>
+    </tr>
+
   </tbody>
 </table>
 

@@ -11,14 +11,17 @@ Defina a partir do seguinte <a href="https://forms.gle/92r4cKs6CKDWeuAF9" target
 explicando **resumidamente os requisitos do sistema com suas entidades principais**. 
 Essa definição deve ser enviada e **aprovada pelo professor**. 
 
+Prazo final de entrega: 09/11/2021
+{: .label .label-red }
+
+O trabalho é individual
+{: .label .label-red }
+
 Os trabalhos devem necessariamente ter domínios distintos. 
 {: .label .label-yellow }
 
 A ordem de envio para o professor determina quem tem prioridade por determinado domínio. Caso o domínio já tenha sido escolhido por outro aluno, deve-se propor um novo domínio.
 {: .label .label-yellow }
-
-**O trabalho é individual**
-{: .label .label-red }
 
 
 ### Parte 2 - Implementação
@@ -26,7 +29,7 @@ A ordem de envio para o professor determina quem tem prioridade por determinado 
 Este passo só pode ser iniciado após a aprovação da Parte I pelo professor. O projeto que vai ser desenvolvido deve ser hospedado no <a href="http://www.github.com" target="_blank">GitHub</a>.
 A segunda parte do projeto deve ser enviada via o seguinte formulário.
 
-Prazo final de entrega: 04/12/2017
+Prazo final de entrega: 30/01/2022
 {: .label .label-red }
 
 
