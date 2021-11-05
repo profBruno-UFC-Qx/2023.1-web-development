@@ -1,12 +1,14 @@
 ---
-title: Aula 7 - Fundamentos de TypeScript
+title: Aula 7 - JavaScript na Web
 nav_order: 7
 has_children: true
 has_toc: false
 #youtubeId: v552Kpro-sk
 ---
 
-## Fundamentos de TypeScript
+{% assign title = page.title | split: "." %}
+
+## {{ title | slice: 1 }}
 
 ### Recurso
 

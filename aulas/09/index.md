@@ -1,12 +1,14 @@
 ---
-title: Aula 9 - Fundamentos de Express
+title: Aula 9 - Fundamentos de Node.js
 nav_order: 9
 has_children: true
 has_toc: false
 #youtubeId: v552Kpro-sk
 ---
 
-## Fundamentos de Express
+{% assign title = page.title | split: "." %}
+
+## {{ title | slice: 1 }}
 
 ### Recurso
 

@@ -1,6 +1,6 @@
 ---
-title: Aula 8 - Fundamentos de TypeScript
-nav_order: 8
+title: Aula 14 - Introdução ao Vuejs
+nav_order: 14
 has_children: true
 has_toc: false
 #youtubeId: v552Kpro-sk
@@ -20,8 +20,8 @@ Em breve estará disponível.
 </span>
 
 {% include youtubePlayer.html id=page.youtubeId %}
--->
-<span class="fs-3 float-right">
-[Próxima aulas](../09/){: .btn }
-</span>
 
+<span class="fs-3 float-right">
+[Próxima aulas](){: .btn }
+</span>
+-->

@@ -1,12 +1,14 @@
 ---
-title: Aula 12 - Sessões
+title: Aula 12 - Introdução a Promises
 nav_order: 12
 has_children: true
 has_toc: false
 #youtubeId: v552Kpro-sk
 ---
 
-## Sessões
+{% assign title = page.title | split: "." %}
+
+## {{ title | slice: 1 }}
 
 ### Recurso
 

@@ -60,7 +60,7 @@ Confiram a lista de atividades a seguir:
          <span class="label label-red">
         {% endif %}
          30/01/2022 </span></td>
-        <td> <a href="{{}}" class="btn">Enviar</a></td>
+        <td> <a href="" class="btn">Enviar</a></td>
         <td> <span id="pp"></span> </td>
     </tr>
 

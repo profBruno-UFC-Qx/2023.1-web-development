@@ -1,12 +1,14 @@
 ---
-title: Aula 11 - Introdução a Promises
+title: Aula 11 - Fundamentos de MongoDB
 nav_order: 11
 has_children: true
 has_toc: false
 #youtubeId: v552Kpro-sk
 ---
 
-## Introdução a Promises
+{% assign title = page.title | split: "." %}
+
+## {{ title | slice: 1 }}
 
 ### Recurso
 

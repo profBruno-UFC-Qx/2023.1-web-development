@@ -6,7 +6,9 @@ has_toc: false
 #youtubeId: v552Kpro-sk
 ---
 
-## Fundamentos de JavaScript
+{% assign title = page.title | split: "." %}
+
+## {{ title | slice: 1 }}
 
 ### Recurso
 
