@@ -1,11 +1,8 @@
 ---
-permanlink: /comando/listas
 ---
 
 
-
-Confiram a lista de atividades a seguir:
-
+Comando !trabalhos
 
 {% assign atividades = site.atividades | sort: "numero" %}
 {% assign today = "now" | date: "%s" %} 

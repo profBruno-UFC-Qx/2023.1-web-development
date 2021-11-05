@@ -67,3 +67,4 @@ Confiram a lista de atividades a seguir:
   </tbody>
 </table>
 
+<a href="comando" class="btn">Gerar comando</a>
