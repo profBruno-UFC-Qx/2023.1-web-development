@@ -51,7 +51,7 @@ Comando !trabalhos
 
 ```markdown
 **{{ info.first }}** {{ first_number }}{{ last_number }} - {{ icons[icon_number] }}
- - **Descrição:** {{ atividade.url | absolute_url}}
+ - **Descrição:** https://profbruno-ufc-qx.github.io{{ atividade.url | absolute_url}}
  - **Prazo:** {{atividade.prazo}}
 
 ```
