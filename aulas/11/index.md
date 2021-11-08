@@ -1,5 +1,5 @@
 ---
-title: Aula 11 - Fundamentos de MongoDB
+title: Aula 11 - Fundamentos de VueJs
 nav_order: 11
 has_children: true
 has_toc: false

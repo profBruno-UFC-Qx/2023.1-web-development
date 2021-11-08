@@ -1,5 +1,5 @@
 ---
-title: Aula 13 - Sessões
+title: Aula 13 - Introdução a Promises
 nav_order: 13
 has_children: true
 has_toc: false
@@ -22,6 +22,6 @@ Em breve estará disponível.
 {% include youtubePlayer.html id=page.youtubeId %}
 -->
 <span class="fs-3 float-right">
-[Próxima aulas](../14/){: .btn }
+[Próxima aulas](../13/){: .btn }
 </span>
 
