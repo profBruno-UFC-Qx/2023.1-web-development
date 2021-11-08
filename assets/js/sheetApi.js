@@ -7,7 +7,9 @@ document.addEventListener('readystatechange', event => {
         const urls = [
         "10NrNj2BWTUxd8fNMSEzAuzHobY6bqYPDBHmSENAR4OA",
         "1VrRAEmWQRBKnv6iB3zlyxqEn6g2tgy88xKc8-7O2zkw",
-        "16eAPfz-gNs7ngHwfPObsGzMaDSJYeSuQh7ECyAIGaSc"
+        "16eAPfz-gNs7ngHwfPObsGzMaDSJYeSuQh7ECyAIGaSc",
+        "1KmNKlgxCPHZnKi_W5rl5-rqgAVOcIR0x3Gv2hPj0xg4",
+        "1AGKK6CupJhq6-ZbHitScC4iMG4t4reuiR-hNDlgz6Zw"
         ]
         
         urls.forEach(function(sheetUrl, index) {
