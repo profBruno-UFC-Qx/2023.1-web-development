@@ -1,5 +1,7 @@
 ---
 title: Projeto Final
+jsarr:
+- /assets/js/projetosAprovados.js
 ---
 
 ## Projeto Final
@@ -22,6 +24,24 @@ Os trabalhos devem necessariamente ter domínios distintos.
 
 A ordem de envio para o professor determina quem tem prioridade por determinado domínio. Caso o domínio já tenha sido escolhido por outro aluno, deve-se propor um novo domínio.
 {: .label .label-yellow }
+
+### Projetos Aprovados
+
+
+<table class="table table-striped caption-bottom" id="aprovados">
+  <thead>
+    <tr>
+        <th>#</th>
+        <th>Descrição</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+
+
+<ul id="aprovados">
+</ul>
 
 
 ### Parte 2 - Implementação
