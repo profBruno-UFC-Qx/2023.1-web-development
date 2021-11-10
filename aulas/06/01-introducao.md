@@ -1,6 +1,7 @@
 ---
 title: 01. Introdução e Visão geral
 parent: Aula 6 - Fundamentos de JavaScript
+nav_order: 1
 youtubeId: 9ifWKVu91Tk
 ---
 

@@ -1,6 +1,7 @@
 ---
-title: 01. Objetos e Funções
+title: 02. Objetos e Funções
 parent: Aula 6 - Fundamentos de JavaScript
+nav_order: 2
 youtubeId: LGL8PyS_gXs
 ---
 
