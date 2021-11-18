@@ -18,7 +18,7 @@ document.addEventListener('readystatechange', event => {
                     const row = table.insertRow(-1);
                     const number = row.insertCell(0);
                     const desc = row.insertCell(1);
-                    number.appendChild(document.createTextNode(i));
+                    number.appendChild(document.createTextNode(i + 1));
                     desc.appendChild(document.createTextNode(descriptions[i]));
 
                 }
