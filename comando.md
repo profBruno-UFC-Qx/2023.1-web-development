@@ -1,10 +1,9 @@
 ---
 ---
 
-
 Comando !trabalhos
 
-{% assign atividades = site.atividades | sort: "numero" %}
+{% assign atividades = site.atividades | sort: numero %}
 {% assign today = "now" | date: "%s" %} 
 
 {% assign icons = ":notebook_with_decorative_cover:,:closed_book:,:blue_book:,:green_book:,:orange_book:,:notebook:" | split: ","  %}
@@ -12,17 +11,16 @@ Comando !trabalhos
 {% for atividade in atividades %}
 
 {% assign info = atividade.nome | strip | split: " " %} 
-{% assign first = info.last | slice: 0 %}
+{% assign first = info[1] | slice: 0 %}
 {% case first %}
     {% when "0" %}
         {% capture first_number %} :zero: {% endcapture %}
     {% when "1" %}
         {% capture first_number %} :one: {% endcapture %}
     {% else %}
-    merda
 {% endcase %}
 
-{% assign last = info.last | slice: 1 %}
+{% assign last = info[1] | slice: 1 %}
 {% case last %}
     {% when "0" %}
         {% capture last_number %} :zero: {% endcapture %}
@@ -47,10 +45,10 @@ Comando !trabalhos
     {% else %}
 {% endcase %}
 
-{% assign icon_number = info.last | modulo: icons.size %}
+{% assign icon_number = info[1] | modulo: icons.size %}
 
 ```markdown
-**{{ info.first }}** {{ first_number }}{{ last_number }} - {{ icons[icon_number] }}
+**Lista {{ first_number }}{{ last_number }}: {{ atividade.nome | split: "-" | slice: 1}} - {{ icons[icon_number] }}
  - **Descrição:** https://profbruno-ufc-qx.github.io{{ atividade.url | absolute_url}}
  - **Prazo:** {{atividade.prazo}}
 
