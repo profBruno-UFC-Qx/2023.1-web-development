@@ -3,25 +3,24 @@ title: Aula 8 - Fundamentos de TypeScript
 nav_order: 8
 has_children: true
 has_toc: false
-#youtubeId: v552Kpro-sk
+youtubeId: q0c8HEG6xcU
+next: 01-introducao
 ---
 
-{% assign title = page.title | split: "." %}
+{% assign title = page.title | split: "-" %}
 
 ## {{ title | slice: 1 }}
 
 ### Recurso
 
-Em breve estará disponível.
-
-<!--
 <span class="fs-3">
-#[Slides aqui]({{site.baseurl}}/assets/downloads/01-Apresentacao-da-disciplina.pdf){: .btn }
+  <a href="{{site.baseurl}}/assets/downloads/08-Fundamentos-de-TypeScript.pdf" class="btn" target="_blank">Notas de aula</a>
+  <a href="https://www.icloud.com/keynote/0CpqVh53CzeMoQwzaqsJ9rbQw#08-Fundamentos-de-TypeScript" class="btn" target="_blank">Notas de aula com animações</a>
 </span>
 
 {% include youtubePlayer.html id=page.youtubeId %}
--->
+
 <span class="fs-3 float-right">
-[Próxima aulas](../09/){: .btn }
+[Próxima aulas]({{page.next}}){: .btn }
 </span>
 
