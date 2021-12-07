@@ -9,7 +9,10 @@ document.addEventListener('readystatechange', event => {
         "1VrRAEmWQRBKnv6iB3zlyxqEn6g2tgy88xKc8-7O2zkw",
         "16eAPfz-gNs7ngHwfPObsGzMaDSJYeSuQh7ECyAIGaSc",
         "1KmNKlgxCPHZnKi_W5rl5-rqgAVOcIR0x3Gv2hPj0xg4",
-        "1AGKK6CupJhq6-ZbHitScC4iMG4t4reuiR-hNDlgz6Zw"
+        "1AGKK6CupJhq6-ZbHitScC4iMG4t4reuiR-hNDlgz6Zw",
+        "1XqEEhMNmpnHaZ31hQVWMDAu-L3rDZ42yn1_y4DBwbl8",
+        "1NcCdhPsaw4IVSd6MBfQkxAjfbX39Q0a8NscVlnsMkdw",
+        "1x3wcZeqeNTxhW_Kta1iLQZ7Klu47dhGXlVOGIRhjCE4"
         ]
         
         urls.forEach(function(sheetUrl, index) {
