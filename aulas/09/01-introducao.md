@@ -1,9 +1,9 @@
 ---
-title: 03. Orietanção a Objetos
-parent: Aula 8 - Fundamentos de TypeScript
-nav_order: 3
-youtubeId: xtIJn-83EeY
-next: ../09/
+title: 01. Introdução ao NodeJs
+parent: Aula 8 - Fundamentos de NodeJs
+nav_order: 1
+youtubeId: 27helUCt8EI
+next: 02-criando-um-projeto
 ---
 
 {% assign title = page.title | split: "." %}
