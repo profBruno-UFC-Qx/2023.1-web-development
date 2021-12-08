@@ -1,6 +1,6 @@
 ---
 title: 01. Introdução ao NodeJs
-parent: Aula 8 - Fundamentos de NodeJs
+parent: Aula 9 - Fundamentos de NodeJs
 nav_order: 1
 youtubeId: 27helUCt8EI
 next: 02-criando-um-projeto

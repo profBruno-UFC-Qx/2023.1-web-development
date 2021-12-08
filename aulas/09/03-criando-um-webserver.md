@@ -1,6 +1,6 @@
 ---
 title: 03. Servindo uma página web com NodeJs
-parent: Aula 8 - Fundamentos de NodeJs
+parent: Aula 9 - Fundamentos de NodeJs
 nav_order: 3
 youtubeId: 2BfH_xtZDd4
 next: encontro-sincrono

@@ -1,6 +1,6 @@
 ---
 title: 02. Criando um projeto Node
-parent: Aula 8 - Fundamentos de NodeJs
+parent: Aula 9 - Fundamentos de NodeJs
 nav_order: 2
 youtubeId: UnCLMp2lMC4
 next: 03-criando-um-webserver
