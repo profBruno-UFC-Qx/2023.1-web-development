@@ -1,5 +1,5 @@
 ---
-title: Aula 12 - Fundamentos de MongoDB
+title: Aula 12 - Projeto de frontend com VueJs + Vite
 nav_order: 12
 has_children: true
 has_toc: false

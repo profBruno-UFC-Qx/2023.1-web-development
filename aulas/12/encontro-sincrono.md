@@ -1,9 +1,9 @@
 ---
 title: Encontro Síncrono
-parent: Aula 11 - Fundamentos de VueJs
+parent: Aula 12 - Projeto de frontend com VueJs + Vite
 nav_order: 02
-youtubeId: _IdzXIcMfWY
-next: ../12/
+youtubeId: CM_bCt5Rf54
+next: ../13/
 ---
 
 ## {{ page.title }}
