@@ -1,16 +1,21 @@
 ---
-title: Encontro Síncrono
+title: 03. Principais aspectos de app escritas com VueJs
 parent: Aula 11 - Fundamentos de VueJs
-nav_order: 06
-youtubeId: _IdzXIcMfWY
-next: ../12/
+nav_order: 04
+youtubeId: XItugQQTcZU
+next: 04-components
 ---
 
-## {{ page.title }}
+{% assign title = page.title | split: "." %}
 
+## {{ title | slice: 1 }}
+
+
+<!--
 <span class="fs-3">
 <a href="https://github.com/profBruno-UFC-Qx/qxd0020-stock-and-store" class="btn" target="blank">Repositório do código</a>
 </span>
+-->
 
 {% include youtubePlayer.html id=page.youtubeId %}
 

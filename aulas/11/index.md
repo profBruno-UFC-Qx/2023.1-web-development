@@ -3,25 +3,25 @@ title: Aula 11 - Fundamentos de VueJs
 nav_order: 11
 has_children: true
 has_toc: false
-#youtubeId: v552Kpro-sk
+youtubeId: 9MiQa8mUl8U
+next: 01-introducao
 ---
 
-{% assign title = page.title | split: "." %}
+{% assign title = page.title | split: "-" %}
 
 ## {{ title | slice: 1 }}
 
 ### Recurso
 
-Em breve estará disponível.
-
-<!--
 <span class="fs-3">
-#[Slides aqui]({{site.baseurl}}/assets/downloads/01-Apresentacao-da-disciplina.pdf){: .btn }
+<a href="{{site.baseurl}}/assets/downloads/11-Fundamentos-de-VueJs.pdf" class="btn" target="_blank">Slides aqui</a>
+<a href="https://www.icloud.com/keynote/08831v0gK4p2H-8_GJSRf-VdA#11-Fundamentos-de-VueJs" class="btn" target="_blank">Slides com animação</a>
 </span>
 
 {% include youtubePlayer.html id=page.youtubeId %}
--->
+
+
 <span class="fs-3 float-right">
-[Próxima aulas](../12/){: .btn }
+[Próxima aulas]({{page.next}}){: .btn }
 </span>
 
