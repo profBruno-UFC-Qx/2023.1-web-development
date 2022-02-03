@@ -53,14 +53,14 @@ Confiram a lista de atividades a seguir:
     <tr>
         <td><a href="{{ 'projeto_final' | relative_url }}" target="_blank"> Projeto Final - Implementação</a></td>
         <td>
-        {% assign prazo = "30/01/2022" | date: "%d/%m/%Y" | date: "%s" %}
+        {% assign prazo = "06/02/2022" | date: "%d/%m/%Y" | date: "%s" %}
         {% if prazo >= today %}
         <span class="label label-green">
         {% else %}
          <span class="label label-red">
         {% endif %}
          06/02/2022 </span></td>
-        <td> <a href="" class="btn">Enviar</a></td>
+        <td> <a href="https://forms.gle/HPqNW2KZ1yEEp5Ps9" class="btn">Enviar</a></td>
         <td> <span id="pp"></span> </td>
     </tr>
 

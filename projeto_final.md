@@ -47,7 +47,7 @@ A ordem de envio para o professor determina quem tem prioridade por determinado 
 ### Parte 2 - Implementação
 
 Este passo só pode ser iniciado após a aprovação da Parte I pelo professor. O projeto que vai ser desenvolvido deve ser hospedado no <a href="http://www.github.com" target="_blank">GitHub</a>.
-A segunda parte do projeto deve ser enviada via o seguinte formulário.
+A segunda parte do projeto deve ser enviada via o seguinte <a href="https://forms.gle/HPqNW2KZ1yEEp5Ps9" target="_blank">formulário.</a>
 
 Prazo final de entrega: 06/02/2022
 {: .label .label-red }
