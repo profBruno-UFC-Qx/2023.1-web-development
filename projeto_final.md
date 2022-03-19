@@ -9,11 +9,11 @@ jsarr:
 
 ### Parte 1 - Envio da proposta
 
-Defina a partir do seguinte <a href="https://forms.gle/92r4cKs6CKDWeuAF9" target="_blank">formulário</a>, um domínio a ser modelado e implementado em um sistema, 
+Defina a partir do seguinte <a href="https://forms.gle/jA6i8onfUukq8zkQ9" target="_blank">formulário</a>, um domínio a ser modelado e implementado em um sistema, 
 explicando **resumidamente os requisitos do sistema com suas entidades principais**. 
 Essa definição deve ser enviada e **aprovada pelo professor**. 
 
-Prazo final de entrega: 21/11/2021
+Prazo final de entrega: 25/04/2022
 {: .label .label-red }
 
 O trabalho é individual
@@ -47,9 +47,9 @@ A ordem de envio para o professor determina quem tem prioridade por determinado 
 ### Parte 2 - Implementação
 
 Este passo só pode ser iniciado após a aprovação da Parte I pelo professor. O projeto que vai ser desenvolvido deve ser hospedado no <a href="http://www.github.com" target="_blank">GitHub</a>.
-A segunda parte do projeto deve ser enviada via o seguinte <a href="https://forms.gle/HPqNW2KZ1yEEp5Ps9" target="_blank">formulário.</a>
+A segunda parte do projeto deve ser enviada via o seguinte <a href="https://forms.gle/6W24vv49jCGwpP4a9" target="_blank">formulário.</a>
 
-Prazo final de entrega: 06/02/2022
+Prazo final de entrega: 26/06/2022
 {: .label .label-red }
 
 

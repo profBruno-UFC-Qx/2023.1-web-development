@@ -20,6 +20,9 @@ Confiram a lista de atividades a seguir:
     </tr>
  </thead>
  <tbody>
+
+{% comment %}
+
 {% assign atividades = site.atividades | sort: "nome" %}
 {% assign today = "now" | date: "%s" %} 
 {% for atividade in atividades %}
@@ -63,6 +66,8 @@ Confiram a lista de atividades a seguir:
         <td> <a href="https://forms.gle/HPqNW2KZ1yEEp5Ps9" class="btn">Enviar</a></td>
         <td> <span id="pp"></span> </td>
     </tr>
+
+{% endcomment %}
 
   </tbody>
 </table>

@@ -3,7 +3,7 @@ document.addEventListener('readystatechange', event => {
     // When window loaded ( external resources are loaded too- `css`,`src`, etc...) 
     if (event.target.readyState === "complete") {
         const appUrl = "https://script.google.com/macros/s/AKfycbwXBxdWUbJt0sv1sF3bTCEi9KlIqneh_ITsPBZ5QS-iAXkwxJIJtqdwP1bH13L4yzRrQA/exec";
-        const sheetUrl = "1IwXgNz0wdZGjVqnUhr4vUU3r9TVmUgFBE_-Y8Mbk3uk";
+        const sheetUrl = "1LZeOcp5Tr2VB68kvhQPzQiqN74f_Q5SUcoTa8t4Q4g4";
 
         if(sheetUrl != ""){
             const url = appUrl + "?id=" + sheetUrl ;
