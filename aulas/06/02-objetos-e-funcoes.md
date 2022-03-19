@@ -19,6 +19,6 @@ youtubeId: LGL8PyS_gXs
 {% include youtubePlayer.html id=page.youtubeId %}
 
 <span class="fs-3 float-right">
-[Próxima aulas](encontro-sincrono){: .btn }
+[Próxima aulas](../07/){: .btn }
 </span>
 

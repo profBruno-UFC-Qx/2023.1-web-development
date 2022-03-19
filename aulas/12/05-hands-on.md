@@ -3,7 +3,7 @@ title: 05. Migrando a MangaStore c/ Vue + Vuex + VueRouter
 parent: Aula 12 - Criando uma SPA com VueJs
 nav_order: 05
 youtubeId: LT0T93ePqDQ
-next: encontro-sincrono
+next: ../13/
 ---
 
 {% assign title = page.title | split: "." %}

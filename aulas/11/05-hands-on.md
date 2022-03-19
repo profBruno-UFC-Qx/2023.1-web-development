@@ -3,7 +3,7 @@ title: 05. Prática
 parent: Aula 11 - Fundamentos de VueJs
 nav_order: 05
 youtubeId: KiPWkPUYJ1o
-next: encontro-sincrono
+next: ../12/
 ---
 
 {% assign title = page.title | split: "." %}
@@ -21,5 +21,5 @@ next: encontro-sincrono
 -->
 
 <span class="fs-3 float-right">
-<i class="fas fa-download">[Próxima aulas]({{page.next}}){: .btn }</i>
+i class="fas fa-download">[Próxima aulas]({{page.next}}){: .btn }</i>
 </span>

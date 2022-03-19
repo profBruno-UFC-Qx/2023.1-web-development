@@ -11,5 +11,5 @@ youtubeId: nJKAVXA921I
 
 
 <span class="fs-3 float-right">
-<i class="fas fa-download">[Próxima aulas](encontro-sincrono){: .btn }</i>
+<i class="fas fa-download">[Próxima aulas](../05/){: .btn }</i>
 </span>
