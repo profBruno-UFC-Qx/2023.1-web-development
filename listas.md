@@ -21,7 +21,6 @@ Confiram a lista de atividades a seguir:
  </thead>
  <tbody>
 
-{% comment %}
 
 {% assign atividades = site.atividades | sort: "nome" %}
 {% assign today = "now" | date: "%s" %} 
@@ -36,38 +35,37 @@ Confiram a lista de atividades a seguir:
          <span class="label label-red">
         {% endif %}
         {{ atividade.prazo }}</span></td>
-        <td> <a href="{{ atividade.link}}" class="btn">Enviar</a></td>
+        <td> <a href="{{ atividade.link}}" class="btn" target="_blank">Enviar</a></td>
         <td> <span id="pp{{ atividade.numero }}"></span> </td>
     </tr>
 {% endfor %}
     <tr>
         <td><a href="{{ 'projeto_final'| relative_url }}" target="_blank"> Projeto Final - Proposta</a></td>
         <td>
-        {% assign prazo = "21/11/2021" | date: "%d/%m/%Y" | date: "%s" %}
+        {% assign prazo = "25/04/2022" | date: "%d/%m/%Y" | date: "%s" %}
         {% if prazo >= today %}
         <span class="label label-green">
         {% else %}
          <span class="label label-red">
         {% endif %}
-         21/11/2021 </span></td>
+         25/04/2022 </span></td>
         <td> <a href="https://forms.gle/92r4cKs6CKDWeuAF9" target="_blank" class="btn">Enviar</a></td>
         <td> <span id="pp"></span> </td>
     </tr>
     <tr>
         <td><a href="{{ 'projeto_final' | relative_url }}" target="_blank"> Projeto Final - Implementação</a></td>
         <td>
-        {% assign prazo = "06/02/2022" | date: "%d/%m/%Y" | date: "%s" %}
+        {% assign prazo = "26/06/2022" | date: "%d/%m/%Y" | date: "%s" %}
         {% if prazo >= today %}
         <span class="label label-green">
         {% else %}
          <span class="label label-red">
         {% endif %}
-         06/02/2022 </span></td>
+         26/06/2022 </span></td>
         <td> <a href="https://forms.gle/HPqNW2KZ1yEEp5Ps9" class="btn">Enviar</a></td>
         <td> <span id="pp"></span> </td>
     </tr>
 
-{% endcomment %}
 
   </tbody>
 </table>

@@ -6,6 +6,6 @@ layout: default
 
 <h3>Prazo: <span class="label label-red">{{ page.prazo }}</span></h3>
 
-<h3>Descrição:</h3>
+<h3>Envio:</h3>
 
 {{ content }}
