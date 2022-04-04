@@ -1,8 +1,11 @@
 ---
 title: Lista de Exercícios
-youtubeId1: x7oWQXAB4fo
 jsarr:
 - /assets/js/sheetApi.js
+prazo-da-proposta: 25/04/2022
+form-do-envio-da-proposta: https://forms.gle/sh6PbCHQBMVSQYAu7
+prazo-do-envio-final: 26/06/2022
+form-do-envio-final: https://forms.gle/wsqcZhgTbxhcLN6o8
 ---
 
 ### Lista de Exercícios
@@ -42,27 +45,27 @@ Confiram a lista de atividades a seguir:
     <tr>
         <td><a href="{{ 'projeto_final'| relative_url }}" target="_blank"> Projeto Final - Proposta</a></td>
         <td>
-        {% assign prazo = "25/04/2022" | date: "%d/%m/%Y" | date: "%s" %}
+        {% assign prazo = page.prazo-da-proposta | date: "%d/%m/%Y" | date: "%s" %}
         {% if prazo >= today %}
         <span class="label label-green">
         {% else %}
          <span class="label label-red">
         {% endif %}
-         25/04/2022 </span></td>
-        <td> <a href="https://forms.gle/92r4cKs6CKDWeuAF9" target="_blank" class="btn">Enviar</a></td>
+         {{ page.prazo-da-proposta }} </span></td>
+        <td> <a href="{{ page.form-do-envio-da-proposta}}" target="_blank" class="btn">Enviar</a></td>
         <td> <span id="pp"></span> </td>
     </tr>
     <tr>
         <td><a href="{{ 'projeto_final' | relative_url }}" target="_blank"> Projeto Final - Implementação</a></td>
         <td>
-        {% assign prazo = "26/06/2022" | date: "%d/%m/%Y" | date: "%s" %}
+        {% assign prazo = page.prazo-do-envio-final | date: "%d/%m/%Y" | date: "%s" %}
         {% if prazo >= today %}
         <span class="label label-green">
         {% else %}
          <span class="label label-red">
         {% endif %}
-         26/06/2022 </span></td>
-        <td> <a href="https://forms.gle/HPqNW2KZ1yEEp5Ps9" class="btn">Enviar</a></td>
+         page.razo-do-envio-final </span></td>
+        <td> <a href="{{ page.form-do-envio-final }}" class="btn">Enviar</a></td>
         <td> <span id="pp"></span> </td>
     </tr>
 

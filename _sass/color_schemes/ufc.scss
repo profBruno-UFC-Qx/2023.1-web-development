@@ -20,3 +20,12 @@ $code-background-color: $grey-dk-250;
 $search-background-color: $grey-dk-250;
 $table-background-color: $baby-powder;
 $feedback-color: darken($sidebar-color, 3%);
+
+.nav-list-item  a {
+    color: $baby-powder;
+}
+
+.nav-list .nav-list-item a.nav-list-expander {
+    color: $baby-powder;
+}
+

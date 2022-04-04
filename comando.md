@@ -48,7 +48,7 @@ Comando !trabalhos
 {% assign icon_number = info[1] | modulo: icons.size %}
 
 ```markdown
-**Lista {{ first_number }}{{ last_number }}: {{ atividade.nome | split: "-" | slice: 1}} - {{ icons[icon_number] }}
+**Lista** {{ first_number }}{{ last_number }}: {{ atividade.nome | split: "-" | slice: 1}} - {{ icons[icon_number] }}
  - **Descrição:** https://profbruno-ufc-qx.github.io{{ atividade.url | absolute_url}}
  - **Prazo:** {{atividade.prazo}}
 

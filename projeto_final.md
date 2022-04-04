@@ -9,14 +9,14 @@ jsarr:
 
 ### Parte 1 - Envio da proposta
 
-Defina a partir do seguinte <a href="https://forms.gle/jA6i8onfUukq8zkQ9" target="_blank">formulário</a>, um domínio a ser modelado e implementado em um sistema, 
+Defina a partir do seguinte <a href="https://forms.gle/sh6PbCHQBMVSQYAu7" target="_blank">formulário</a>, um domínio a ser modelado e implementado em um sistema, 
 explicando **resumidamente os requisitos do sistema com suas entidades principais**. 
 Essa definição deve ser enviada e **aprovada pelo professor**. 
 
 Prazo final de entrega: 25/04/2022
 {: .label .label-red }
 
-O trabalho é individual
+O trabalho pode ser feito em dupla
 {: .label .label-red }
 
 Os trabalhos devem necessariamente ter domínios distintos. 
