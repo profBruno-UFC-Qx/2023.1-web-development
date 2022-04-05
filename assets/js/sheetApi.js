@@ -5,7 +5,8 @@ document.addEventListener('readystatechange', event => {
        
         const appUrl = "https://script.google.com/macros/s/AKfycby8Cc77YPc4NfxcGTUz7Ba6n0gdBA_s7JkvdeJ8LPU_646M-LGcaVia1LozCFcUTqAhrQ/exec"
         const urls = [
-        "1lxySWEQc6tJvYyo6QTAFQPITPrXQM3P7TcmGnQ3wWZA"
+        "1lxySWEQc6tJvYyo6QTAFQPITPrXQM3P7TcmGnQ3wWZA",
+        "1kp0dTRHKZnh0LzYeva5mT_t5MJyKdcSnEhE4gHgF-xw"
         ]
         
         urls.forEach(function(sheetUrl, index) {

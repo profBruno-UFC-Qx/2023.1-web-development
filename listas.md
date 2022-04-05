@@ -64,7 +64,7 @@ Confiram a lista de atividades a seguir:
         {% else %}
          <span class="label label-red">
         {% endif %}
-         page.razo-do-envio-final </span></td>
+         {{ page.prazo-do-envio-final }} </span></td>
         <td> <a href="{{ page.form-do-envio-final }}" class="btn">Enviar</a></td>
         <td> <span id="pp"></span> </td>
     </tr>
