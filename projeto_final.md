@@ -13,7 +13,7 @@ Defina a partir do seguinte <a href="https://forms.gle/sh6PbCHQBMVSQYAu7" target
 explicando **resumidamente os requisitos do sistema com suas entidades principais**. 
 Essa definição deve ser enviada e **aprovada pelo professor**. 
 
-Prazo final de entrega: 25/04/2022
+Prazo final de entrega: 03/05/2022
 {: .label .label-red }
 
 O trabalho pode ser feito em dupla
