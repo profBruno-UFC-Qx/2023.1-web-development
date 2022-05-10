@@ -32,6 +32,7 @@ A ordem de envio para o professor determina quem tem prioridade por determinado 
   <thead>
     <tr>
         <th>#</th>
+        <th>Projeto</th>
         <th>Descrição</th>
     </tr>
   </thead>
