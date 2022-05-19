@@ -25,7 +25,7 @@ Confiram a lista de atividades a seguir:
  <tbody>
 
 
-{% assign atividades = site.atividades | sort: "nome" %}
+{% assign atividades = site.atividades | sort: "numero" %}
 {% assign today = "now" | date: "%s" %} 
 {% for atividade in atividades %}
     <tr>
