@@ -1,9 +1,9 @@
 ---
-title: 02. Iniciando um projeto com Express
-parent: Aula 10 - Fundamentos de Express
-nav_order: 2
-youtubeId: KfxbZWjXpPs
-next: 03-middleware
+title: 03. Middleware
+parent: Aula 11 - Fundamentos de Express
+nav_order: 3
+youtubeId: T9CstlekQtg
+next: 04-arquitetura-mvc
 ---
 
 {% assign title = page.title | split: "." %}

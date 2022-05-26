@@ -1,6 +1,6 @@
 ---
 title: 04. Arquitetura MVC
-parent: Aula 10 - Fundamentos de Express
+parent: Aula 11 - Fundamentos de Express
 nav_order: 4
 youtubeId: PktDvKuteiI
 next: 05-adicionando-express-node

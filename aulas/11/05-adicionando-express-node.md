@@ -1,9 +1,9 @@
 ---
 title: 05. Adicionando Express a um projeto Node
-parent: Aula 10 - Fundamentos de Express
+parent: Aula 11 - Fundamentos de Express
 nav_order: 5
 youtubeId: Ay6pjWQ_iE8
-next: ../11/
+next: ../12/
 ---
 
 {% assign title = page.title | split: "." %}

@@ -1,6 +1,6 @@
 ---
 title: 02. Introdução ao VueJs
-parent: Aula 11 - Fundamentos de VueJs
+parent: Aula 12 - Fundamentos de VueJs
 nav_order: 03
 youtubeId: qZh3k3tKJJY
 next: 03-main_aspects

@@ -1,9 +1,9 @@
 ---
-title: 03. Principais aspectos de app escritas com VueJs
-parent: Aula 11 - Fundamentos de VueJs
+title: 04. Componentes
+parent: Aula 12 - Fundamentos de VueJs
 nav_order: 04
-youtubeId: XItugQQTcZU
-next: 04-components
+youtubeId: QMh77iMHwyM
+next: 05-hands-on
 ---
 
 {% assign title = page.title | split: "." %}
