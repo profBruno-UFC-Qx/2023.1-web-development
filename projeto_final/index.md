@@ -2,8 +2,6 @@
 title: Projeto Final
 has_children: true
 has_toc: true
-jsarr:
-- /assets/js/projetosAprovados.js
 ---
 
 ## Projeto Final

@@ -14,6 +14,9 @@ Caso o trabalho seja feito em equipe, cada membro da equipe deve usar seu própr
 Não serão aceitos trabalhos implementados em um único commit.
 {: .label .label-red }
 
+Não serão aceitos trabalhos enviados em formato compactados, ex: zip, rar e similares
+{: .label .label-red }
+
 Prazo final de entrega: 26/06/2022
 {: .label .label-red }
 
@@ -33,8 +36,12 @@ Este arquivo deverá conter as segunites informações:
 -  Rotas da API REST utilizadas
 
 
-Para facilitar a sua vida, copie o [Modelo de README.md]({{site.baseurl}}/assets/README.md) e subtitua o arquivo gerado pelo GitHub, depois preencha com dados referentes ao seu projeto.
+Para facilitar a sua vida, copie o [Modelo de README.md]({{site.baseurl}}/assets/README.md.example) e subtitua o arquivo gerado pelo GitHub, depois preencha com dados referentes ao seu projeto.
 {: .label .label-yellow :}
+
+Projetos que não disponibilizarem no README.md as informações acima serão desconsiderados.
+{: .label .label-red }
+
 
 **Se você utiliza o Strapi**:
 
@@ -56,3 +63,5 @@ O  projeto deve ser enviado via o seguinte <a href="https://forms.gle/6W24vv49jC
 
 ### Apresentação do trabalho
 O trabalho também deverá necessariamente ser apresentado conforme cronograma da disciplina. A não apresentação do trabalho pelo aluno em sua anulação.
+{: .label .label-red }
+

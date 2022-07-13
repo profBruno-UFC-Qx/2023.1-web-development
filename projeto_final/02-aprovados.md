@@ -2,6 +2,8 @@
 title: Projetos aprovados
 parent: Projeto Final
 nav_order: 02
+jsarr:
+- /assets/js/projetosAprovados.js
 ---
 
 ### Projetos aprovados
