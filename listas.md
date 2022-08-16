@@ -4,6 +4,7 @@ jsarr:
 - /assets/js/sheetApi.js
 prazo-da-proposta: 15/09/2022
 form-do-envio-da-proposta: https://forms.gle/sh6PbCHQBMVSQYAu7
+prazo-modelagem: 16/10/2022
 prazo-do-envio-final: 29/11/2022
 form-do-envio-final: https://forms.gle/wsqcZhgTbxhcLN6o8
 ---
@@ -55,6 +56,20 @@ Confiram a lista de atividades a seguir:
         <td> <a href="{{ page.form-do-envio-da-proposta}}" target="_blank" class="btn">Enviar</a></td>
         <td> <span id="pp"></span> </td>
     </tr>
+    <tr>
+        <td><a href="{{ 'projeto_final'| relative_url }}" target="_blank"> Projeto Final - Modelagem e Rascunho de interface</a></td>
+        <td>
+        {% assign prazo = page.prazo-modelagem | date: "%d/%m/%Y" | date: "%s" %}
+        {% if prazo >= today %}
+        <span class="label label-green">
+        {% else %}
+         <span class="label label-red">
+        {% endif %}
+         {{ page.prazo-modelagem }} </span></td>
+        <td> <a href="{{ page.form-do-envio-da-proposta}}" target="_blank" class="btn">Enviar</a></td>
+        <td> <span id="pp"></span> </td>
+    </tr>
+
     <tr>
         <td><a href="{{ 'projeto_final' | relative_url }}" target="_blank"> Projeto Final - Implementação</a></td>
         <td>

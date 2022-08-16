@@ -1,7 +1,7 @@
 ---
 title: Projetos aprovados
 parent: Projeto Final
-nav_order: 02
+nav_order: 01
 jsarr:
 - /assets/js/projetosAprovados.js
 ---
@@ -23,8 +23,3 @@ jsarr:
 
 <ul id="aprovados">
 </ul>
-
-
-<span class="fs-3 float-right">
-<i class="fas fa-download">[Envio Final](03-envio-final){: .btn }</i>
-</span>
