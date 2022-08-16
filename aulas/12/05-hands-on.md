@@ -1,8 +1,8 @@
 ---
-title: 05. Prática
-parent: Aula 12 - Fundamentos de VueJs
+title: 05. Migrando a MangaStore c/ Vue + Vuex + VueRouter
+parent: Aula 12 - Criando uma SPA com VueJs
 nav_order: 05
-youtubeId: KiPWkPUYJ1o
+youtubeId: LT0T93ePqDQ
 next: ../13/
 ---
 
@@ -11,7 +11,7 @@ next: ../13/
 ## {{ title | slice: 1 }}
 
 <span class="fs-3">
-<a href="https://github.com/profBruno-UFC-Qx/qxd0020-stock-and-store" class="btn" target="blank">Repositório do código</a>
+<a href="https://github.com/profBruno-UFC-Qx/qxd0020-manga-store" class="btn" target="blank">Repositório do código</a>
 </span>
 
 {% include youtubePlayer.html id=page.youtubeId %}
@@ -20,6 +20,8 @@ next: ../13/
 <iframe src="{{page.drive_url}}" width="720" height="480" allow="autoplay"></iframe>
 -->
 
+
 <span class="fs-3 float-right">
 <i class="fas fa-download">[Próxima aulas]({{page.next}}){: .btn }</i>
 </span>
+

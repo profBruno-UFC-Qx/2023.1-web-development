@@ -1,29 +1,28 @@
 ---
-title: 01. Introdução ao Express
-parent: Aula 11 - Fundamentos de Express
-nav_order: 1
-youtubeId: mLkAzARSV30
-next: 02-iniciando-um-projeto
+title: 01. Contexto histórico
+parent: Aula 11 - Fundamentos de VueJs
+nav_order: 02
+youtubeId: 7KX8q2kMuR0
+next: 02-vue_intro
 ---
 
 {% assign title = page.title | split: "." %}
 
 ## {{ title | slice: 1 }}
 
-{% comment %}
-### Recurso
-{% endcomment %}
 
 <!--
 <span class="fs-3">
-  <a href="{{site.baseurl}}/assets/downloads/08-Fundamentos-de-TyoeScript.pdf" class="btn" target="_blank">Notas de aula</a>
-  <a href="https://www.icloud.com/keynote/0GDTVZX4m6lppt1uxjntVY2Yg#07-JavaScript-na-web" class="btn" target="_blank">Notas de aula com animações</a>
+<a href="https://github.com/profBruno-UFC-Qx/qxd0020-stock-and-store" class="btn" target="blank">Repositório do código</a>
 </span>
 -->
 
 {% include youtubePlayer.html id=page.youtubeId %}
 
-<span class="fs-3 float-right">
-[Próxima aulas]({{page.next}}){: .btn }
-</span>
+<!--
+<iframe src="{{page.drive_url}}" width="720" height="480" allow="autoplay"></iframe>
+-->
 
+<span class="fs-3 float-right">
+<i class="fas fa-download">[Próxima aulas]({{page.next}}){: .btn }</i>
+</span>

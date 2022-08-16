@@ -1,9 +1,9 @@
 ---
-title: 01. Contexto histórico
-parent: Aula 12 - Fundamentos de VueJs
-nav_order: 02
-youtubeId: 7KX8q2kMuR0
-next: 02-vue_intro
+title: 01. Introdução
+parent: Aula 12 - Criando uma SPA com VueJs
+nav_order: 01
+youtubeId: YMew9PjEfJk
+next: 02-sfc
 ---
 
 {% assign title = page.title | split: "." %}
