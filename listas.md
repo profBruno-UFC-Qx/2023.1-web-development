@@ -2,9 +2,9 @@
 title: Lista de Exercícios
 jsarr:
 - /assets/js/sheetApi.js
-prazo-da-proposta: 03/05/2022
+prazo-da-proposta: 15/09/2022
 form-do-envio-da-proposta: https://forms.gle/sh6PbCHQBMVSQYAu7
-prazo-do-envio-final: 26/06/2022
+prazo-do-envio-final: 29/11/2022
 form-do-envio-final: https://forms.gle/wsqcZhgTbxhcLN6o8
 ---
 
