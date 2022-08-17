@@ -58,9 +58,9 @@ Não serão aceitos trabalhos implementados em um único commit.
 
 O autor do trabalho ou a dupla, deve escolher o domínio da aplicação, ex: um loja online de doces, e também deve descrever as funcionalidades do sistema, explicando **resumidamente os requisitos do sistema com suas entidades principais**. Essa definição deve ser enviada e **aprovada pelo professor**. 
 
-Para auxiliar nessa tarefa, vocês irão realizar um **fork** do seguinte repositório no GitHub <a href="" target="_blank"></a>. Como vocês podem ver, o **Readme.md** já vem previamente preenchido com um modelo. Vocês devem alterar o modelo de acordo com a realidade da proposta de projeto final de vocês.
+Para auxiliar nessa tarefa, vocês irão realizar um **fork** do seguinte <a href="https://github.com/profBruno-UFC-Qx/qxd0020-projeto-final" target="_blank">repositório no GitHub </a>. Como vocês podem ver, o **Readme.md** já vem previamente preenchido com um modelo. Vocês devem alterar o modelo de acordo com a realidade da proposta de projeto final de vocês. Vocês podem consultar <a href="https://github.com/profBruno-UFC-Qx/qxd0020-manga-store" target="_blank">o repositório da MangaStore</a>.
 
-Depois disso, a proposta deve ser enviada por meio do seguinte <a href="https://forms.gle/sh6PbCHQBMVSQYAu7" target="_blank">formulário</a>.
+Depois disso, a proposta deve ser enviada por meio do seguinte <a href="https://forms.gle/K2iiNVZsHBiGYtkN9" target="_blank">formulário</a>.
 
 Prazo final de entrega: 15/09/2022
 {: .label .label-red }
@@ -90,19 +90,7 @@ Prazo final de entrega: 16/10/2022
 
 ## Código <a name="envio3"></a>
 
-Antes de enviar o seu projeto para a avaliação será necessário realizar o preenchimento do arquivo **README.md** (gerado automaticamente pelo Github)  do seu projeto.
-Este arquivo deverá conter as segunites informações:
-
-- Nome do projeto
-- Membros da equipe
--  Tecnologias e frameworks utilizados
-  - No Frontend
-  - Backend
-- Papéis ou tipos de usuário do sistema
-- Entidades, Tabelas ou Coleções do sistema
-  - Operações implementadas para cada entidade
--  Rotas da API REST utilizadas
-
+Antes de enviar o seu projeto para a avaliação será necessário realizar o preenchimento do restante do arquivo **README.md**  do seu projeto.
 
 Para facilitar a sua vida, apenas altere a segunda parte do **README.md** do repositório que você realizou o **fork** no ato do envio da proposta do projeto final.
 {: .label .label-yellow :}
@@ -115,7 +103,7 @@ Projetos que não disponibilizarem no README.md as informações acima serão de
 
 O Strapi por padrão utiliza o banco Sqlite, que armazena todo a base de dados em um único arquivo. Logo, se você não alterou nenhuma configuração relacionada ao armazenamento de dados, a base de dados da sua aplicação deve estar localizada em uma pasta **oculta** chamada **.tmp** (isso mesmo, tem um ponto antes do nome), dentro da pasta do Strapi.
 
-Por padrão, esse arquivo não é enviado ao GitHub por motivos óbvios, porém para facilitar a correç±ao, peço que envie o arquivo do banco para o GitHub. Para isso, você precisará alterar o arquivo **.gitignore** presente na raiz do projeto Strapi e remover a segunite linha:
+Por padrão, esse arquivo não é enviado ao GitHub por motivos óbvios, porém para facilitar a correção, peço que envie o arquivo do banco para o GitHub. Para isso, você precisará alterar o arquivo **.gitignore** presente na raiz do projeto Strapi e remover a segunite linha:
 
 ```
 .tmp
