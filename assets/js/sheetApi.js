@@ -5,12 +5,12 @@ document.addEventListener('readystatechange', event => {
        
         const appUrl = "https://script.google.com/macros/s/AKfycby8Cc77YPc4NfxcGTUz7Ba6n0gdBA_s7JkvdeJ8LPU_646M-LGcaVia1LozCFcUTqAhrQ/exec"
         const urls = [
-        "1lxySWEQc6tJvYyo6QTAFQPITPrXQM3P7TcmGnQ3wWZA",
-        "1kp0dTRHKZnh0LzYeva5mT_t5MJyKdcSnEhE4gHgF-xw",
-        "10ynlTNciiepC5VIMyFqBMPM4C66uB1jj_6b2VE2SFbM",
-        "11dYWFpdiQW7bFhTFyR48xt5ns8p7m_0dh_xlEOSLdRw",
-        "1LFkDNGAQwucGyo7Tv2ZUdr8ZEmfntNPdie-Jnm0_HYI",
-        "1zqaHJE-C_VYYNDoiO_z_FT4AKJxMM7P56SAET8UFE4w"
+        "1k4qKFapetGcd2atOJ8LPW8sSyidMVw9sOEAkCWMKyyM",
+        "1_ntPIfCFqubZq77J9IcY5M4a0EUW2fsbO2B7WJJlp3k",
+        "1pjdrc5yjoJOI7cI8h4-9232cnG0h0axZW1xsIMrKW9s",
+        "1uUYS3Rff2360dZYoADXTXsY4SKrKhDlJD1GD-gEcxAI",
+        "1VCasjXUmCVIy3WteBc-wX4h1NAz_PHkAYnPP8MpE4hM",
+        "1P6O2RxpEUzSpL6L9r0QqbKVYaF_5b0ujOQYXqRuzXNc"
         ]
         
         urls.forEach(function(sheetUrl, index) {

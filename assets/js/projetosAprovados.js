@@ -3,7 +3,7 @@ document.addEventListener('readystatechange', event => {
     // When window loaded ( external resources are loaded too- `css`,`src`, etc...) 
     if (event.target.readyState === "complete") {
         const appUrl = "https://script.google.com/macros/s/AKfycbwa2JkI5j0jAH6apaztT8PO2wLuUjelxcsE9WiVAjSOCDCrReQCW3Yyo-7DgWD3_iCfdg/exec";
-        const sheetUrl = "1f2XuUc_uQvvC3Q_K_LKa4qzHkiAJF_7TijewCM6EOGY"
+        const sheetUrl = "19Wf-7JulwI89qNNYSEh746KWmIKZdmcX3V8yX1n1b9g"
 
         if(sheetUrl != ""){
             const url = appUrl + "?id=" + sheetUrl ;
@@ -15,7 +15,9 @@ document.addEventListener('readystatechange', event => {
                 const descriptions = res['descriptions'];
                 const projects = res['projects'];
                 for(let i in descriptions) {
-                    
+
+                    if(projects[i][0].length == 0 ) continue;
+
                     const row = table.insertRow(-1);
                     const number = row.insertCell(0);
                     const project = row.insertCell(1);
