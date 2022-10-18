@@ -79,7 +79,7 @@ A entrega da modelagem deve ser feita de duas formas:
   - Um digrama entidade relacional ou um diagrama de classes que deixe claro como as entidades se relacionam
   - A "implementação" dessa modelagem utilizando **Strapi**.
 
-Com uma visão clara das funcionalidades do projeto, a equipe deve também entregrar a primeira versão das telas do sistemas. Estas telas devem ser construídas usando HTML, CSS e JavaScript (ou TypeScript). Como são primeiras versões, dados fictícios devem/podem ser utilziados.
+Com uma visão clara das funcionalidades do projeto, a equipe deve também entregrar a primeira versão das telas do sistemas. Estas telas devem ser construídas usando HTML, CSS e JavaScript (ou TypeScript). Como são primeiras versões, dados fictícios devem/podem ser utilizados.
 
 No prazo final da entrega, todo esse conteúdo deve estar presente no repositório do GitHub do projeto final, enviado juntamente com a proposta do projeto final.
 {: .label .label-yellow }
