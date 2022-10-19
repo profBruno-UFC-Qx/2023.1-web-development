@@ -85,7 +85,7 @@ No prazo final da entrega, todo esse conteúdo deve estar presente no repositór
 {: .label .label-yellow }
 
 
-Prazo final de entrega: 16/10/2022
+Prazo final de entrega: 30/10/2022
 {: .label .label-red }
 
 ## Código <a name="envio3"></a>

@@ -4,7 +4,7 @@ jsarr:
 - /assets/js/sheetApi.js
 prazo-da-proposta: 15/09/2022
 form-do-envio-da-proposta: https://forms.gle/K2iiNVZsHBiGYtkN9
-prazo-modelagem: 16/10/2022
+prazo-modelagem: 30/10/2022
 prazo-do-envio-final: 29/11/2022
 form-do-envio-final: https://forms.gle/wsqcZhgTbxhcLN6o8
 ---
