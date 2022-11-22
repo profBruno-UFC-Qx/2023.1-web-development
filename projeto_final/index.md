@@ -127,7 +127,7 @@ Não serão aceitos trabalhos implementados em um único commit.
 Não serão aceitos trabalhos enviados em formato compactados, ex: zip, rar e similares
 {: .label .label-red }
 
-Prazo final de entrega: 29/11/2022
+Prazo final de entrega: 04/12/2022
 {: .label .label-red }
 
 ### Apresentação do trabalho <a name="apresentacao"></a>
