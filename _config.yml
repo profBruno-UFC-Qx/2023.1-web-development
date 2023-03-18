@@ -68,3 +68,5 @@ defaults:
 collections:
   atividades:
     output: true
+  exercicios:
+    output: true

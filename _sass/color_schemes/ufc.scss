@@ -16,7 +16,7 @@ $link-color: $coquelicot;
 $btn-primary-color: $blue-200;
 $base-button-color: $grey-lt-000 !default;
 
-$code-background-color: $grey-dk-250;
+$code-background-color: $midnight-blue;
 $search-background-color: $grey-dk-250;
 $table-background-color: $baby-powder;
 $feedback-color: darken($sidebar-color, 3%);
@@ -29,3 +29,6 @@ $feedback-color: darken($sidebar-color, 3%);
     color: $baby-powder;
 }
 
+code {
+    color: $baby-powder;
+}
