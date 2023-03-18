@@ -2,11 +2,11 @@
 title: Lista de Exercícios
 jsarr:
 - /assets/js/sheetApi.js
-prazo-da-proposta: 15/09/2022
-form-do-envio-da-proposta: https://forms.gle/K2iiNVZsHBiGYtkN9
-prazo-modelagem: 30/10/2022
-prazo-do-envio-final: 04/12/2022
-form-do-envio-final: https://forms.gle/wsqcZhgTbxhcLN6o8
+prazo-da-proposta: 16/04/2024
+prazo-modelagem: 07/05/2024 
+prazo-do-envio-final: 16/04/2024
+form-do-envio-da-proposta: https://forms.gle/BcrvaLGNmhvqTLrD8 
+form-do-envio-final:
 ---
 
 ### Lista de Exercícios
@@ -20,7 +20,7 @@ Confiram a lista de atividades a seguir:
         <th> Nome </th>
         <th> Prazo de Entrega </th>
         <th> Link para envio </th>
-        <th> Qtd Enviados </th>
+        <!--<th> Qtd Enviados </th>-->
     </tr>
  </thead>
  <tbody>
@@ -32,19 +32,22 @@ Confiram a lista de atividades a seguir:
     <tr>
         <td> <a href="{{ atividade.url | relative_url }}" target="_blank">{{  atividade.nome }}</a></td>
         <td>
+
+        {% comment %}
         {% assign prazo = atividade.prazo | date: "%d/%m/%Y" | date: "%s" %}
         {% if prazo >= today %}
         <span class="label label-green">
         {% else %}
-         <span class="label label-red">
+        <span class="label label-red">
         {% endif %}
-        {{ atividade.prazo }}</span></td>
-        <td> <a href="{{ atividade.link}}" class="btn" target="_blank">Enviar</a></td>
-        <td> <span id="pp{{ atividade.numero }}"></span> </td>
+        {{ atividade.prazo }}</span>
+        {% endcomment %}</td>
+        <td><!-- <a href="{{ atividade.link}}" class="btn" target="_blank">Enviar</a> --></td>
+        <!--<td> <span id="pp{{ atividade.numero }}"></span> </td>-->
     </tr>
 {% endfor %}
     <tr>
-        <td><a href="{{ 'projeto_final'| relative_url }}" target="_blank"> Projeto Final - Proposta</a></td>
+        <td><a href="{{ 'projeto_final'| relative_url }}#envio1" target="_blank"> Projeto Final - Proposta</a></td>
         <td>
         {% assign prazo = page.prazo-da-proposta | date: "%d/%m/%Y" | date: "%s" %}
         {% if prazo >= today %}
@@ -54,10 +57,10 @@ Confiram a lista de atividades a seguir:
         {% endif %}
          {{ page.prazo-da-proposta }} </span></td>
         <td> <a href="{{ page.form-do-envio-da-proposta}}" target="_blank" class="btn">Enviar</a></td>
-        <td> <span id="pp"></span> </td>
+        <!--<td> <span id="pp"></span> </td>-->
     </tr>
     <tr>
-        <td><a href="{{ 'projeto_final'| relative_url }}" target="_blank"> Projeto Final - Modelagem e Rascunho de interface</a></td>
+        <td><a href="{{ 'projeto_final'| relative_url }}#envio2" target="_blank"> Projeto Final - Modelagem e Rascunho de interface</a></td>
         <td>
         {% assign prazo = page.prazo-modelagem | date: "%d/%m/%Y" | date: "%s" %}
         {% if prazo >= today %}
@@ -67,11 +70,11 @@ Confiram a lista de atividades a seguir:
         {% endif %}
          {{ page.prazo-modelagem }} </span></td>
         <td> <a href="{{ page.form-do-envio-da-proposta}}" target="_blank" class="btn">Enviar</a></td>
-        <td> <span id="pp"></span> </td>
+        <!--<td> <span id="pp"></span> </td>-->
     </tr>
 
     <tr>
-        <td><a href="{{ 'projeto_final' | relative_url }}" target="_blank"> Projeto Final - Implementação</a></td>
+        <td><a href="{{ 'projeto_final' | relative_url }}#envio3" target="_blank"> Projeto Final - Implementação</a></td>
         <td>
         {% assign prazo = page.prazo-do-envio-final | date: "%d/%m/%Y" | date: "%s" %}
         {% if prazo >= today %}
@@ -80,8 +83,8 @@ Confiram a lista de atividades a seguir:
          <span class="label label-red">
         {% endif %}
          {{ page.prazo-do-envio-final }} </span></td>
-        <td> <a href="{{ page.form-do-envio-final }}" class="btn">Enviar</a></td>
-        <td> <span id="pp"></span> </td>
+        <td> <span class="btn">Via GitHub</span></td>
+        <!--<td> <span id="pp"></span> </td>-->
     </tr>
 
 

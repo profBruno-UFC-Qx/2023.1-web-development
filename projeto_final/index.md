@@ -2,6 +2,10 @@
 title: Projeto Final
 has_children: true
 has_toc: true
+prazo_proposta: 16/04/2024
+prazo_modelagem: 07/05/2024
+prazo_codigo: 06/06/2024
+formulario_proposta: https://forms.gle/oVtGwuTKS8KrPQNSA
 ---
 
 # Projeto Final
@@ -31,17 +35,27 @@ Lembre-se de seguir as boas práticas:
 
 O **backend** (API REST) com o qual a sua aplicação deve se comunicar deve ser construído utilizando o <a href="http://strapi.io" target="_blank">Strapi</a>.
 
-O trabalho pode ser feito em dupla
+O trabalho pode ser feito em equipe
 {: .label .label-blue }
 
 ## Requisitos mínimos <a name="req"></a>
+  
+  - A sua aplicação deve possuir pelo menos ***x* entidades (tabelas)**, onde :
+<div>
+\[x =
+  \begin{cases}
+    3       & \quad \text{quando o trabalho for individual }\\
+   n + 1  & \quad \text{para trabalhos em equipe onde } n \text{ é o tamanho da equipe}
+  \end{cases}
+\]
+</div>
 
-  1. A sua aplicação deve possuir pelo menos 3 entidades (tabelas) que serão persistidas na base de dados.
-  2. A aplicação **frontend** deve implementar os CRUDs de pelo menos duas dessas tabelas.
-  3. A aplicação deve persistir por meio de um **backend em um banco de dados**. 
-  4. A aplicação deve possuir uma **área pública com páginas/serviços acessíveis a todos; e uma área restrita com páginas/serviços acessíveis somente a usuários autenticados**. Consequentemente, o **frontend** deve implementar um mecanimos de **autenticação & autorização**.
-  5. A aplicação deve ter uma barra de navegação/menu com todas as opções/links funcionando e a opção de logout deve estar sempre visível.
-  6. A aplicação Web deve ter **modularização de trechos de HTML usados em várias páginas**. 
+  - A aplicação **frontend** deve implementar os CRUDs de pelo menos duas dessas tabelas.
+    - Para trabalhos em equipe com mais de dois membros, as regras de negócio serão avaliada para verificar a elegibilidade do projeto.
+  - A aplicação deve persistir por meio de um **backend em um banco de dados**. 
+  - A aplicação deve possuir uma **área pública com páginas/serviços acessíveis a todos; e uma área restrita com páginas/serviços acessíveis somente a usuários autenticados**. Consequentemente, o **frontend** deve implementar um mecanimo de **autenticação & autorização**.
+  - A aplicação deve ter uma barra de navegação/menu com todas as opções/links funcionando e a opção de logout deve estar sempre visível.
+  - A aplicação Web deve ter **modularização de trechos de HTML usados em várias páginas**. 
     - Exemplo: Deixar cabeçalho e rodapé em arquivos separados e incluí-los nas páginas onde serão necessários.
   
 O projeto que vai ser desenvolvido deve ser hospedado no <a href="http://www.github.com" target="_blank">GitHub</a>.
@@ -56,13 +70,14 @@ Não serão aceitos trabalhos implementados em um único commit.
 
 ## Envio da proposta <a name="envio1"></a>
 
-O autor do trabalho ou a dupla, deve escolher o domínio da aplicação, ex: um loja online de doces, e também deve descrever as funcionalidades do sistema, explicando **resumidamente os requisitos do sistema com suas entidades principais**. Essa definição deve ser enviada e **aprovada pelo professor**. 
+O autor do trabalho ou a equipe, deve escolher o domínio da aplicação, ex: um loja online de doces, e também deve descrever as funcionalidades do sistema, explicando **resumidamente os requisitos do sistema com suas entidades principais**. Essa definição deve ser enviada e **aprovada pelo professor**. 
 
-Para auxiliar nessa tarefa, vocês irão realizar um **fork** do seguinte <a href="https://github.com/profBruno-UFC-Qx/qxd0020-projeto-final" target="_blank">repositório no GitHub </a>. Como vocês podem ver, o **Readme.md** já vem previamente preenchido com um modelo. Vocês devem alterar o modelo de acordo com a realidade da proposta de projeto final de vocês. Vocês podem consultar <a href="https://github.com/profBruno-UFC-Qx/qxd0020-manga-store" target="_blank">o repositório da MangaStore</a>.
+Para auxiliar nessa tarefa, vocês irão realizar criar um repositório no GitHub a partir deste <a href="https://github.com/profBruno-UFC-Qx/qxd0020-projeto-final/generate" target="_blank">template</a>. Como vocês podem ver, o **Readme.md** já vem previamente preenchido com um modelo. 
+Vocês devem alterar o modelo de acordo com a realidade da proposta de projeto final de vocês. Vocês podem consultar <a href="https://github.com/profBruno-UFC-Qx/qxd0020-manga-store" target="_blank">o repositório da MangaStore</a>.
 
-Depois disso, a proposta deve ser enviada por meio do seguinte <a href="https://forms.gle/K2iiNVZsHBiGYtkN9" target="_blank">formulário</a>.
+Depois disso, a proposta deve ser enviada por meio do seguinte <a href="{{ page.formulario_proposta }}" target="_blank">formulário</a>.
 
-Prazo final de entrega: 15/09/2022
+Prazo final de entrega: {{ page.prazo_proposta }}
 {: .label .label-red }
 
 Os trabalhos devem necessariamente ter domínios distintos. 
@@ -85,14 +100,14 @@ No prazo final da entrega, todo esse conteúdo deve estar presente no repositór
 {: .label .label-yellow }
 
 
-Prazo final de entrega: 30/10/2022
+Prazo final de entrega: {{ page.prazo_modelagem }}
 {: .label .label-red }
 
 ## Código <a name="envio3"></a>
 
-Antes de enviar o seu projeto para a avaliação será necessário realizar o preenchimento do restante do arquivo **README.md**  do seu projeto.
+Antes de enviar o seu projeto para a avaliação será necessário realizar o preenchimento do restante do arquivo **README.md** do seu projeto.
 
-Para facilitar a sua vida, apenas altere a segunda parte do **README.md** do repositório que você realizou o **fork** no ato do envio da proposta do projeto final.
+Para facilitar a sua vida, apenas altere a segunda parte do **README.md** disponibilizado como template.
 {: .label .label-yellow :}
 
 Projetos que não disponibilizarem no README.md as informações acima serão desconsiderados.
@@ -112,7 +127,7 @@ Por padrão, esse arquivo não é enviado ao GitHub por motivos óbvios, porém 
 Depois disso, será possível commit e enviar a pasta **.tmp** e o arquivo **data.db** gerado pelo Strapi.
 
 
-Informações sobre como utiliza o sistema, além de nomes de usuários e senhas devem ser enviadas via formulário de envio do projeto.
+Informações sobre como utilizar o sistema, além de nomes de usuários e senhas devem ser enviadas por email para que eu possa testar o sistema.
 {: .label .label-yellow :}
 
 Caso o trabalho seja feito em equipe, cada membro da equipe deve usar seu próprio usuário para escrever código.
@@ -127,7 +142,7 @@ Não serão aceitos trabalhos implementados em um único commit.
 Não serão aceitos trabalhos enviados em formato compactados, ex: zip, rar e similares
 {: .label .label-red }
 
-Prazo final de entrega: 04/12/2022
+Prazo final de entrega: {{ page.prazo_codigo }}
 {: .label .label-red }
 
 ### Apresentação do trabalho <a name="apresentacao"></a>
