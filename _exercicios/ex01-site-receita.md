@@ -24,5 +24,8 @@ Instruções:
 1. Use a tag `<img>` para adicionar uma imagem do prato preparado à página. Você pode usar uma imagem de estoque gratuita ou tirar uma foto do prato você mesmo.
 1. Use a tag `<p>` para escrever uma breve declaração final, como uma sugestão para o que o prato pode ser servido junto, ou uma anedota pessoal relacionada ao prato.
 
-
 **Certifique-se de validar seu código HTML usando um validador como o [W3C Markup Validation Service](https://validator.w3.org/), para garantir que seu código esteja sem erros e bem formado**.
+
+Gostou? Não esqueça de avaliar o exercício:
+
+<a class="btn" href="https://forms.gle/scs1VxDDFSiMqAhe8" target="_blank"> Abra o formulário de avaliação</a>
