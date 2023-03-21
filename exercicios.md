@@ -21,7 +21,7 @@ Confiram a lista de atividades a seguir:
 {% assign exercicios = site.exercicios | sort: "numero" %}
 {% for ex in exercicios %}
     <tr>
-        <td> <a href="{{ ex.url | relative_url }}" target="_blank">{{  ex.nome }}</a></td>
+        <td> <a href="{{ ex.url | relative_url }}" target="_blank">{{ ex.numero }} - {{  ex.nome }}</a></td>
         <td> {{ ex.topicos }} </td>
         <td> {{ ex.dificuldade }} </td>
     </tr>
