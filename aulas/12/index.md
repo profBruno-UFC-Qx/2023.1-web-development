@@ -14,7 +14,7 @@ next: 01-introducao
 ### Recurso
 
 <span class="fs-3">
-<a href="{{site.baseurl}}/assets/downloads/13-Criando-uma-SPA-com-VueJs.pdf" class="btn" target="_blank">Slides aqui</a>
+<a href="{{site.baseurl}}/assets/downloads/12-Criando-uma-SPA-com-VueJs.pdf" class="btn" target="_blank">Slides aqui</a>
 <a href="https://www.icloud.com/keynote/0ect0AUYcQmhW-JmL1QBkPllg#12-Criando-uma-SPA-com-VueJs" class="btn" target="_blank">Slides com animação</a>
 </span>
 
