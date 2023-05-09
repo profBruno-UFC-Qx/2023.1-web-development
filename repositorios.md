@@ -12,7 +12,7 @@ title: Repositórios de exemplos
 * <a href="https://github.com/profBruno-UFC-Qx/qxd0020-simple-pacman-js" target="_blank"> Pacman super simples </a> <span class="label label-blue">JavaScript</span>
 * <a href="https://github.com/profBruno-UFC-Qx/qxd0020-jonkenpo" target="_blank"> Jon Ken Po</a> <span class="label label-blue">JavaScript</span>
 * <a href="https://github.com/profBruno-UFC-Qx/qxd0020-pokemon-and-pokeballs" target="_blank"> Pokemon & Pokebolas</a> <span class="label label-blue">TypeScript</span>
-* <a href="https://github.com/profBruno-UFC-Qx/qxd0020-todolist-vue" target="_blank">TodoList using Vue from CDN</a> <span class="label label-blue">Vue</span>
+* <a href="https://github.com/profBruno-UFC-Qx/qxd0020-todo-list" target="_blank">TodoList using Vue from CDN</a> <span class="label label-blue">Vue</span>
 * <a href="https://github.com/profBruno-UFC-Qx/qxd0020-todolist-vue-vite" target="_blank">TodoList using Vue + Vite + Ts</a> <span class="label label-blue">Vue</span>
 * <a href="https://github.com/profBruno-UFC-Qx/qxd0020-stock-and-store" target="_blank">Stock and Store</a> <span class="label label-blue">Vue</span>
 * <a href="https://github.com/profBruno-UFC-Qx/qxd0020-pokedex" target="_blank"> Pokedex</a> <span class="label label-blue">Vue</span>
